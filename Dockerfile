@@ -6,7 +6,7 @@ COPY rsyslog.conf /etc/rsyslog.conf
 COPY entrypoint.sh /entrypoint.sh
 
 EXPOSE 514 514/udp
-VOLUME ["/var/log","/etc/rsyslog.d"]
+VOLUME ["/var/log"]
 
 ENTRYPOINT ["/entrypoint.sh"]
 CMD ["rsyslogd","-n"]
