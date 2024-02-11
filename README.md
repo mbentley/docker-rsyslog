@@ -1,5 +1,4 @@
-mbentley/rsyslog
-================
+# mbentley/rsyslog
 
 docker image for rsyslog
 based off of alpine:latest
